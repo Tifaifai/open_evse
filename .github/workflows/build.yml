@@ -18,7 +18,7 @@ jobs:
 
   build_platform_io:
     name: Build using PlatformIO
-    uses: OpenEVSE/open_evse/.github/workflows/build_platformio.yml@stable
+    uses: Tifaifai/open_evse/.github/workflows/build_platformio.yml@french_build
 
   build_arduino:
     name: Build using Arduino
