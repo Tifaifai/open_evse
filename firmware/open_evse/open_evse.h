@@ -52,7 +52,11 @@
 #define VERSION "D7.1.6"
 #endif // !VERSION
 
+#ifdef FRENCH
+#include "Language_french.h"
+#else
 #include "Language_default.h"   //Default language should always be included as bottom layer
+#endif
 
 typedef unsigned long time_t;
 
