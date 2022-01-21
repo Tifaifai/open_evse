@@ -33,6 +33,9 @@ jobs:
           - env: openevse_eu
             python: 3.x
             platformio: 5.2.3
+          - env: openevse_fr
+            python: 3.x
+            platformio: 5.2.3
           - env: emonevse
             python: 3.x
             platformio: 5.2.3
